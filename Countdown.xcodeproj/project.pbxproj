@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		8E20F5FA2609567700EB9AEA /* CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20F5F92609567700EB9AEA /* CountdownApp.swift */; };
-		8E20F5FC2609567700EB9AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20F5FB2609567700EB9AEA /* ContentView.swift */; };
 		8E20F5FE2609567A00EB9AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E20F5FD2609567A00EB9AEA /* Assets.xcassets */; };
 		8E20F6012609567A00EB9AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E20F6002609567A00EB9AEA /* Preview Assets.xcassets */; };
+		8E20F60D2609721200EB9AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E20F60C2609721200EB9AEA /* ContentView.swift */; };
+		8EC1C29726125D8C007735B8 /* PulldownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC1C29626125D8C007735B8 /* PulldownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E20F5F62609567700EB9AEA /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E20F5F92609567700EB9AEA /* CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownApp.swift; sourceTree = "<group>"; };
-		8E20F5FB2609567700EB9AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E20F5FD2609567A00EB9AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E20F6002609567A00EB9AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8E20F6022609567A00EB9AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E20F6032609567A00EB9AEA /* Countdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Countdown.entitlements; sourceTree = "<group>"; };
+		8E20F60C2609721200EB9AEA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EC1C29626125D8C007735B8 /* PulldownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulldownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +55,13 @@
 		8E20F5F82609567700EB9AEA /* Countdown */ = {
 			isa = PBXGroup;
 			children = (
+				8E20F60C2609721200EB9AEA /* ContentView.swift */,
 				8E20F5F92609567700EB9AEA /* CountdownApp.swift */,
-				8E20F5FB2609567700EB9AEA /* ContentView.swift */,
 				8E20F5FD2609567A00EB9AEA /* Assets.xcassets */,
 				8E20F6022609567A00EB9AEA /* Info.plist */,
 				8E20F6032609567A00EB9AEA /* Countdown.entitlements */,
 				8E20F5FF2609567A00EB9AEA /* Preview Content */,
+				8EC1C29626125D8C007735B8 /* PulldownView.swift */,
 			);
 			path = Countdown;
 			sourceTree = "<group>";
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E20F5FC2609567700EB9AEA /* ContentView.swift in Sources */,
+				8E20F60D2609721200EB9AEA /* ContentView.swift in Sources */,
+				8EC1C29726125D8C007735B8 /* PulldownView.swift in Sources */,
 				8E20F5FA2609567700EB9AEA /* CountdownApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
